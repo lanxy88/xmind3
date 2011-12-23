@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JSON
+Bundle-SymbolicName: org.json
+Bundle-Version: 1.0.0
+Bundle-ClassPath: .
+Bundle-Vendor: org.json
+Export-Package: org.json;version="1.0.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
