@@ -21,7 +21,7 @@
                value="icons/xmind.16.gif,icons/xmind.16.png,icons/xmind.32.png,icons/xmind.48.png,icons/xmind.128.png"/>
          <property
                name="appName"
-               value="XMind">
+               value="%productName">
          </property>
          <property
                name="preferenceCustomization"

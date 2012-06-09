@@ -2,14 +2,13 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: BouncyCastle Plug-in
 Bundle-SymbolicName: org.bouncycastle
-Bundle-Version: 1.3.8
+Bundle-Version: 1.41.0
+Bundle-ClassPath: bcprov-jdk15-141.jar
 Bundle-Vendor: The Legion Of The Bouncy Castle
 Export-Package: org.bouncycastle,
  org.bouncycastle.asn1,
- org.bouncycastle.asn1.bc,
  org.bouncycastle.asn1.cmp,
  org.bouncycastle.asn1.cms,
- org.bouncycastle.asn1.cms.ecc,
  org.bouncycastle.asn1.crmf,
  org.bouncycastle.asn1.cryptopro,
  org.bouncycastle.asn1.eac,
@@ -36,7 +35,6 @@ Export-Package: org.bouncycastle,
  org.bouncycastle.asn1.tsp,
  org.bouncycastle.asn1.util,
  org.bouncycastle.asn1.x500,
- org.bouncycastle.asn1.x500.style,
  org.bouncycastle.asn1.x509,
  org.bouncycastle.asn1.x509.qualified,
  org.bouncycastle.asn1.x509.sigi,
@@ -44,7 +42,6 @@ Export-Package: org.bouncycastle,
  org.bouncycastle.crypto,
  org.bouncycastle.crypto.agreement,
  org.bouncycastle.crypto.agreement.kdf,
- org.bouncycastle.crypto.agreement.srp,
  org.bouncycastle.crypto.digests,
  org.bouncycastle.crypto.encodings,
  org.bouncycastle.crypto.engines,
@@ -53,7 +50,6 @@ Export-Package: org.bouncycastle,
  org.bouncycastle.crypto.io,
  org.bouncycastle.crypto.macs,
  org.bouncycastle.crypto.modes,
- org.bouncycastle.crypto.modes.gcm,
  org.bouncycastle.crypto.paddings,
  org.bouncycastle.crypto.params,
  org.bouncycastle.crypto.prng,
@@ -79,11 +75,12 @@ Export-Package: org.bouncycastle,
  org.bouncycastle.util,
  org.bouncycastle.util.encoders,
  org.bouncycastle.util.io,
- org.bouncycastle.util.io.pem,
  org.bouncycastle.util.test,
  org.bouncycastle.voms,
  org.bouncycastle.x509,
  org.bouncycastle.x509.examples,
  org.bouncycastle.x509.extension,
  org.bouncycastle.x509.util
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.runtime,
+ org.junit
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
