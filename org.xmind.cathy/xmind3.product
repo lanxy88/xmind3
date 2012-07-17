@@ -89,9 +89,11 @@
       <plugin id="org.eclipse.ui"/>
       <plugin id="org.eclipse.ui.console"/>
       <plugin id="org.eclipse.ui.forms"/>
+      <plugin id="org.eclipse.ui.net"/>
       <plugin id="org.eclipse.ui.views"/>
       <plugin id="org.eclipse.ui.workbench"/>
       <plugin id="org.eclipse.ui.workbench.texteditor"/>
+      <plugin id="org.eclipse.update.configurator"/>
       <plugin id="org.hamcrest.core"/>
       <plugin id="org.json"/>
       <plugin id="org.junit"/>
