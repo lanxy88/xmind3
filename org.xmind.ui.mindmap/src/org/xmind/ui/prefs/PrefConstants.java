@@ -75,4 +75,9 @@ public class PrefConstants {
      */
     public static final String HOME_MAP_LOCATION = "homeMapLocation"; //$NON-NLS-1$
 
+    public static final String MAX_REVISION_NUMBER = "maxRevisionNumber";
+
+    public static final String MAX_REVISION_NUMBER_PER_DAY = "maxRevisionNumberPerDay";
+
+
 }

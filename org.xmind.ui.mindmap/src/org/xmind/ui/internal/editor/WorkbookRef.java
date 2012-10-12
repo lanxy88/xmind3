@@ -457,6 +457,15 @@ public class WorkbookRef implements IWorkbookRef, IPropertyChangeListener {
                     || sheet.getModifiedTime() > latestRevision.getTimestamp()) {
                 manager.addRevision(sheet);
             }
+            
+            // Nick: limit the revision numbers
+            List<IRevision> revisions = manager.getRevisions();
+            int max = MindMapUIPlugin.getDefault().getPreferenceStore().getInt(PrefConstants.MAX_REVISION_NUMBER);
+            if (revisions.size() > max) {
+            	for (int ri = 0; ri < revisions.size() - max; ri++) {
+            		manager.removeRevision(revisions.get(ri));
+            	}
+            }
         }
     }
 

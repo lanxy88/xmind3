@@ -35,6 +35,7 @@ public class PrefMessages extends NLS {
     public static String EditorPage_UndoRedo_tips;
     public static String EditorPage_UndoRedo_tips_fade_delay;
 //    public static String EditorPage_UndoRedo_tipsFadeDelay_label;
+    public static String EditorPage_Max_Revision_Number;;
 
     public static String MarkersPage_title;
     public static String MarkersPage_Groups_label;

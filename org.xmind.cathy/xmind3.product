@@ -63,10 +63,6 @@
       <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
       <plugin id="org.eclipse.core.variables"/>
       <plugin id="org.eclipse.draw2d"/>
-      <plugin id="org.eclipse.emf.common"/>
-      <plugin id="org.eclipse.emf.ecore"/>
-      <plugin id="org.eclipse.emf.ecore.change"/>
-      <plugin id="org.eclipse.emf.ecore.xmi"/>
       <plugin id="org.eclipse.equinox.app"/>
       <plugin id="org.eclipse.equinox.common"/>
       <plugin id="org.eclipse.equinox.ds"/>
@@ -80,7 +76,6 @@
       <plugin id="org.eclipse.jface"/>
       <plugin id="org.eclipse.jface.databinding"/>
       <plugin id="org.eclipse.jface.text"/>
-      <plugin id="org.eclipse.nebula.widgets.ganttchart"/>
       <plugin id="org.eclipse.osgi"/>
       <plugin id="org.eclipse.osgi.services"/>
       <plugin id="org.eclipse.swt"/>
@@ -94,14 +89,11 @@
       <plugin id="org.eclipse.ui.workbench"/>
       <plugin id="org.eclipse.ui.workbench.texteditor"/>
       <plugin id="org.eclipse.update.configurator"/>
-      <plugin id="org.hamcrest.core"/>
       <plugin id="org.json"/>
-      <plugin id="org.junit"/>
       <plugin id="org.xmind.cathy"/>
       <plugin id="org.xmind.cathy.win32" fragment="true"/>
       <plugin id="org.xmind.core"/>
       <plugin id="org.xmind.core.audio"/>
-      <plugin id="org.xmind.core.audio.quicktime" fragment="true"/>
       <plugin id="org.xmind.core.io"/>
       <plugin id="org.xmind.core.runtime"/>
       <plugin id="org.xmind.gef"/>

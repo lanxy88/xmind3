@@ -49,9 +49,10 @@ public class EditorPrefPage extends FieldEditorPreferencePage implements
         addAnimationField();
         addShadowField();
         addGradientColorField();
+        addMaxRevisionSizeField();
     }
 
-    private void addUndoRedoField() {
+	private void addUndoRedoField() {
         Composite parent = createGroup(PrefMessages.EditorPage_UndoLimit_title);
 
         addField(new IntegerFieldEditor(PrefConstants.UNDO_LIMIT,
@@ -106,6 +107,12 @@ public class EditorPrefPage extends FieldEditorPreferencePage implements
                 PrefMessages.EditorPage_UndoRedo_gradientColor,
                 getFieldEditorParent()));
     }
+
+	private void addMaxRevisionSizeField() {
+		addField(new IntegerFieldEditor(PrefConstants.MAX_REVISION_NUMBER,
+                PrefMessages.EditorPage_Max_Revision_Number,
+                getFieldEditorParent(), 4));
+	}
 
     private void addPreviewField() {
         addField(new BooleanFieldEditor(PrefConstants.PREVIEW_SKIPPED,
