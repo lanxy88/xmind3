@@ -137,7 +137,12 @@ public abstract class ZoomingAndPanningRevealService extends BaseRevealService {
     private boolean shouldRevealOnIntersection = true;
 
     protected ZoomingAndPanningRevealService(IGraphicalViewer viewer) {
-        super(viewer);
+        this(viewer, true);
+    }
+
+    protected ZoomingAndPanningRevealService(IGraphicalViewer viewer, boolean shouldRevealOnIntersection) {
+    	super(viewer);
+    	this.shouldRevealOnIntersection = shouldRevealOnIntersection;
     }
 
     public int getDuration() {
